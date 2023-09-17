@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eliminar Comanda</title>
+    <style>
+        body{
+            background-image: url(https://th.bing.com/th/id/OIG.36OvTOAhWv5KILvLZGu1?pid=ImgGn);
+        }
+    </style>
+</head>
+<body>
+    <!--<link rel="stylesheet"href="../CSS/bulma.min.css">-->
+    <h1>Eliminar Comanda</h1>
+    
+    <form name="RegistrarComanda" method="post" action="../PHP/InsertarComanda.php">
+        <div style="display: flex;">
+            <p>Comanda N: <input type="number" name="NumeroComanda" id="NumeroComanda" size="10" min="0" max="99">
+                        <input type="submit" value="CONSULTAR">
+                        <input type="submit" value="ELIMINAR"> 
+                        <input type="reset" value="CANCELAR"> </p>   
+        </div>
+    </form>
+</body>
+</html>

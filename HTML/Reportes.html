@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reportes</title>
+    <style>
+        body{
+            background-image: url(https://www.nicepng.com/png/detail/953-9536458_png-file-svg-dinero-con-vector.png);
+        }
+    </style>
+</head>
+<body>
+    <!--<link rel="stylesheet"href="../CSS/bulma.min.css">-->
+    <h1>Reportes</h1>
+    
+    <form name="RegistrarComanda" method="post" action="../PHP/InsertarComanda.php">
+        <div style="display: flex;">
+            <p>Día:<input type="number" name="dia" id="dia" size="10" min="0" max="99">
+               Mes:<input type="number" name="mes" id="mes" size="10" min="0" max="99">
+               Año:<input type="number" name="anio" id="anio" size="10" min="0" max="99">
+
+                        <input type="submit" value="GENERAR REPORTE">
+                        </p>   
+        </div>
+        <p>Dinero total conseguido: <input type="text" size="20" name="dinero" id="dinero"></p>
+        <p><input type="reset" value="CANCELAR"> </p>
+    </form>
+</body>
+</html>

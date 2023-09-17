@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modificar Comanda</title>
+    <style>
+        body{
+            background-image: url(https://th.bing.com/th/id/R.adc7a1fcb3109ec7e633e2be0bd7e38c?rik=Rxd%2bxZH4fNpXrQ&riu=http%3a%2f%2fl.rgbimg.com%2fcache1pKqKk%2fusers%2fx%2fxy%2fxymonau%2f600%2fmPiTonE.jpg&ehk=a1a8zeuGSg8H%2bcNWezZQ7eR4UYzRZu10TzPPrR4KgZE%3d&risl=&pid=ImgRaw&r=0);
+        }
+    </style>
+</head>
+<body>
+    <h1>Modificar Comanda</h1>
+    <form name="RegistrarComanda" method="post" action="../PHP/ModificarComanda.php">
+        <div style="display: flex;">
+            <p>Comanda N: <input type="number" name="NumeroComanda" id="NumeroComanda" size="10" min="0" max="99"><input type="submit" value="CONSULTAR"></p>
+        </div>
+    </form>
+    
+    <p>Mesa N: <input type="number" name="Mesa" id="Mesa" value=0></p>
+
+    <button onclick="FIN()">CANCELAR</button> <!--Cuando presionas el boton te regresa a la interfaz principal-->
+    <!--Funcion para el boton FIN-->
+    <script>
+        function FIN(){
+            window.location.href="../Menu.html";
+        }
+    </script>
+</body>

@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Consulta de Comanda en Parrilla</title>
+    <style>
+        body{
+            background-image: url(https://www.supercoloring.com/sites/default/files/styles/coloring_medium/public/cif/2022/04/grill-coloring-page.png);
+        }
+    </style>
+</head>
+<body>
+
+
+    <!--<link rel="stylesheet"href="../CSS/bulma.min.css">-->
+    <h1>DATOS COMANDA CONSULTADA</h1> 
+    
+    <form name="RegistrarComanda" method="post" action="../PHP/InsertarComanda.php">
+         
+        
+        <p>Mesa N: <input type="number" name="Mesa" id="Mesa"></p> 
+        <h2>PLATILLOS            CANTIDAD</h2>
+        <p><textarea name="platillos" rows="10" cols="40"></textarea><input type="checkbox"> Cilandro<input type="checkbox"> Cebolla<input type="checkbox"> Piña</p>
+
+        <p>Mesa N: <input type="number" name="Mesa" id="Mesa"></p> 
+        <h2>PLATILLOS            CANTIDAD</h2>
+        <p><textarea name="platillos" rows="10" cols="40"></textarea><input type="checkbox"> Cilandro<input type="checkbox"> Cebolla<input type="checkbox"> Piña</p>
+
+
+        <input type="submit" name="GUARDAR" value="GUARDAR">
+        <input type="reset" value="CANCELAR">
+        
+        
+    </form>
+</body>
+</html>
