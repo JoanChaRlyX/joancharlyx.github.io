@@ -9,7 +9,7 @@
 </head>
 <body>
     <?php
-        include "Menu.html";
+        include "index.html";
     ?>
 </body>
 </html>
